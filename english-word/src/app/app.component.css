@@ -1,0 +1,36 @@
+.myContainer{
+    background-color: #ff3333;
+     padding: 50px;
+     justify-content: flex-start;
+   
+
+}
+.h1{
+    margin-left: 20px;
+    color:white;
+}
+#myFirstRow{
+    justify-content: flex-start;
+}
+#word{
+width:150px;
+border-radius: 30px;
+color:white;
+margin-left: 20px;
+}
+#input{
+    margin-left: 20px; 
+}
+#mySecondRow{
+      justify-content: flex-start;
+}
+#paper{
+    width: 18rem;
+    margin-left: 20px;
+}
+#Definition{
+    color: white;
+    margin-left: 80px;
+    width: 150px;
+   margin-top:-10%
+}
