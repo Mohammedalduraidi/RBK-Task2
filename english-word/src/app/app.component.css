@@ -1,8 +1,9 @@
 .myContainer{
     background-color: #ff3333;
-     padding: 50px;
+     padding: 30px;
      justify-content: flex-start;
-   
+     margin:auto;
+     max-width: 600px
 
 }
 .h1{
