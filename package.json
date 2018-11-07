@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Mohammedalduraidi/RBK-Task2#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "oxford-dictionary-api": "^1.0.1",
     "path": "^0.12.7"
   }
 }

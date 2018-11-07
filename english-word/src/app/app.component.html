@@ -5,21 +5,21 @@
       <Button class="btn btn-warning " id="word">
         word
       </Button>
-      <input type="text" id="input">
+      <input type="text" id="input" [(ngModel)]="word">
     </div>
   </div>
   <br />
   <div class="row" id="mySecondRow">
-    
-      <div class="card" id="paper">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-      </div>
-      <div>
-      <Button class="btn btn-success" id="Definition">
+
+    <div class="card" id="paper">
+      <h5 class="card-title">Word: {{word}} </h5>
+      <h5 class="card-title">Lexical Category: {{entries}} </h5>
+      <h6 class="card-text"><strong>Definitions:</strong> {{Definitions}}</h6>
+      <h6 class="card-text"><strong>Example:</strong> {{Example}}</h6>
+      <h6 class="card-text"><strong>Anther Example:</strong> {{antherExample}}</h6>
+    </div>
+    <div>
+      <Button class="btn btn-success" id="Definition" (click)="Definition(word)">
         Definition
       </Button>
     </div>
